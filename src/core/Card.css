@@ -1,0 +1,117 @@
+
+.productimg {
+    min-height: 100px;
+}
+
+.text{
+    text-align: center;
+    font-size:14px;
+    letter-spacing: normal;
+}
+
+
+
+/*product name*/
+.prod_name{
+    background:#f78385; 
+    color:#fff;
+    font-weight:bold;
+}
+
+
+/*card*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 620px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+
+  .currency {
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .updprice{
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  
+  .price {
+    color: rgb(88, 86, 86);
+    font-size: 15px;
+    font-style:italic;
+    /* font-weight: bold; */
+    text-decoration:line-through;
+    margin-right:7px;
+  }
+
+  
+
+  .desc{
+      font-size:15px;
+  }
+
+  /*cart*/
+
+
+  
+
+  .addtocart {
+    /*padding:10px;*/
+    padding:10px 12px;
+    margin-left: 3px;
+    text-align: center;
+    font-size:20px;
+    border: 2px solid rgb(250, 222, 62);
+    background-color: white;
+    color:rgb(250, 222, 62);
+}
+
+.addtocart:hover{
+    border: none;
+    background-color:rgb(250, 222, 62);
+    text-decoration:none;
+    color: white;
+}
+
+.viewproduct {
+  padding:10px;
+  margin-right: 5px;
+  text-align: center;
+  font-size:20px;
+  border: 2px solid rgb(45, 146, 240);
+  background-color: white;
+  color:rgb(45, 146, 240);
+}
+
+.viewproduct:hover{
+  border: none;
+  background-color: rgb(45, 146, 240);
+  text-decoration:none;
+  color: white;
+}
+
+.removeproduct {
+  padding:10px;
+  margin-right: 5px;
+  text-align: center;
+  font-size:20px;
+  border: 2px solid rgb(228, 16, 16);
+  background-color: white;
+  color:rgb(228, 16, 16);
+}
+
+.removeproduct:hover{
+  border: none;
+  background-color:rgb(228, 16, 16);
+  text-decoration:none;
+  color: white;
+}
+
